@@ -1,0 +1,5 @@
+require("max.remap")
+require("max.start")
+require("max.theme")
+require("max.packer")
+require("max.git")
