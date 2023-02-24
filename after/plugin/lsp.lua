@@ -10,4 +10,12 @@ lsp.ensure_installed({
 	'tailwindcss'
 })
 
+local cmp = require('cmp')
+
+lsp.setup_nvim_cmp({
+  mapping = cmp.mapping.preset.insert({
+    ['<C-Space>'] = cmp.mapping.complete(),
+  })
+})
+
 lsp.setup()

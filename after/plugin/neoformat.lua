@@ -1,3 +1,3 @@
-vim.api.nvim_create_autocmd("BufWritePre,TextChanged,InsertLeave" {
-  command = "Neoformat",
+vim.api.nvim_create_autocmd("InsertLeave", {
+  command = "Neoformat"
 })
